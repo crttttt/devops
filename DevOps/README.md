@@ -30,7 +30,7 @@ Documentations Utilisées :
 |`git mv` 			| # Renommer un fichier				|
 |`git rm` 			| # Supprimer un fichier			|
 
---
+---
 
 ## Étapes réalisées
 ### 1. Création du repository
