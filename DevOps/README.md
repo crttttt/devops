@@ -11,19 +11,13 @@ https://gitforwindows.org/
 Puis git --version
 
 ---
-
 Documentations Utilisées : 
 
 * https://git-scm.com/docs
 * https://docs.github.com/fr
-
 ---
-
 ## Commande Utilisée
-
 ---
-
-|-------------------------------|-----------------------------------------------|
 |Commande : 			| Rôle de la commande : 			|
 |-------------------------------|------------------------------------------------
 |`git clone` 			| # Cloner un repository			|
@@ -35,13 +29,10 @@ Documentations Utilisées :
 |`git merge develop` 		| # Fusionner une branche			|
 |`git mv` 			| # Renommer un fichier				|
 |`git rm` 			| # Supprimer un fichier			|
-|--------------------------------------------------------------------------------
----
 
+--
 ## Étapes réalisées
-
 ### 1. Création du repository
-
 * Création d’un repo GitHub
 * Clonage en local
 
@@ -49,11 +40,9 @@ Documentations Utilisées :
 
 ```
 git checkout -b develop
-
 ```
 
 ### 3. Ajout des fichiers
-
 * file1
 * file2
 * file3
@@ -64,7 +53,6 @@ git checkout -b develop
 git add .
 git commit -m "Ajout des fichiers"
 git push origin develop
-
 ```
 
 ### 5. Merge vers main
@@ -72,22 +60,18 @@ git push origin develop
 ```
 git checkout main
 git merge develop
-
 ```
 
 ### 6. Modifications
-
 * Création du README
 * Renommage de file1 → file1.txt
 * Suppression de file3
-
 ### 7. Commit final
 
 ```
 git add .
 git commit -m "Modifications finales"
 git push
-
 ```
 
 ### 8. Merge final
@@ -97,7 +81,6 @@ git checkout main
 git merge develop
 
 ```
-
 ---
 
 ## Workflow Git (merci gpt)
@@ -106,5 +89,4 @@ git merge develop
 main -----------o-----------o
                 \
 develop ---------o-----o----o
-
 ```
