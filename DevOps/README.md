@@ -31,6 +31,7 @@ Documentations Utilisées :
 |`git rm` 			| # Supprimer un fichier			|
 
 --
+
 ## Étapes réalisées
 ### 1. Création du repository
 * Création d’un repo GitHub
