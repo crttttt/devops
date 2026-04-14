@@ -87,7 +87,24 @@ git merge develop
 ## Workflow Git (merci gpt)
 
 ```
-main -----------o-----------o
-                \
-develop ---------o-----o----o
+=======
+---
+title: Git workflow TP DevOps
+---
+gitGraph
+   commit id: "Initial commit"
+   branch develop
+   checkout develop
+   commit id: "Ajout file1, file2, file3"
+   commit id: "Push develop"
+   checkout main
+   merge develop
+   commit id: "Merge develop -> main"
+   checkout develop
+   commit id: "Ajout README"
+   commit id: "Rename file1 + delete file3"
+   checkout main
+   merge develop
+   commit id: "Merge final"
+>>>>>>> develop
 ```
