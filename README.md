@@ -86,15 +86,7 @@ git merge develop
 
 ## Workflow Git
 
-<<<<<<< HEAD
-```
-=======
----
-title: Git workflow TP DevOps
----
-=======
 ```mermaid
->>>>>>> develop
 gitGraph
    commit id: "Initial commit"
    branch develop
@@ -110,5 +102,4 @@ gitGraph
    checkout main
    merge develop
    commit id: "Merge final"
->>>>>>> develop
 ```
