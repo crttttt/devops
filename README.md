@@ -84,13 +84,17 @@ git merge develop
 ```
 ---
 
-## Workflow Git (merci gpt)
+## Workflow Git
 
+<<<<<<< HEAD
 ```
 =======
 ---
 title: Git workflow TP DevOps
 ---
+=======
+```mermaid
+>>>>>>> develop
 gitGraph
    commit id: "Initial commit"
    branch develop
